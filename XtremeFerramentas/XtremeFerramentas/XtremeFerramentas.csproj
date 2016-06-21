@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="cadFerramentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cadFerramentas.Designer.cs">
+      <DependentUpon>cadFerramentas.cs</DependentUpon>
+    </Compile>
     <Compile Include="cadfunc.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="cadFerramentas.resx">
+      <DependentUpon>cadFerramentas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="cadfunc.resx">
       <DependentUpon>cadfunc.cs</DependentUpon>
     </EmbeddedResource>
