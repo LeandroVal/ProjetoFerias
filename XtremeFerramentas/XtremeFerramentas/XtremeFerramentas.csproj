@@ -64,6 +64,18 @@
     <Compile Include="cadSetor.Designer.cs">
       <DependentUpon>cadSetor.cs</DependentUpon>
     </Compile>
+    <Compile Include="cefDevolucao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cefDevolucao.Designer.cs">
+      <DependentUpon>cefDevolucao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cefEmprestimo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cefEmprestimo.Designer.cs">
+      <DependentUpon>cefEmprestimo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +92,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="cadSetor.resx">
       <DependentUpon>cadSetor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cefDevolucao.resx">
+      <DependentUpon>cefDevolucao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cefEmprestimo.resx">
+      <DependentUpon>cefEmprestimo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
