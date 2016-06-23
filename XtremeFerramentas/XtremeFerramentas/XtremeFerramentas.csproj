@@ -134,9 +134,41 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\search-database.ico" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\search.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-to-database.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remove-from-database.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search-Male-User.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add-Male-User.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Remove-Male-User.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Male-User-Help.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edit-Male-User.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Database-Upload.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Relatorio1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Relatório2.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

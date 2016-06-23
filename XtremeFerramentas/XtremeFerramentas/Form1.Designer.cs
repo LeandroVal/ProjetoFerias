@@ -29,557 +29,358 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
-            this.button21 = new System.Windows.Forms.Button();
-            this.button22 = new System.Windows.Forms.Button();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.groupBox8 = new System.Windows.Forms.GroupBox();
-            this.button27 = new System.Windows.Forms.Button();
-            this.button28 = new System.Windows.Forms.Button();
-            this.button35 = new System.Windows.Forms.Button();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.button30 = new System.Windows.Forms.Button();
-            this.button31 = new System.Windows.Forms.Button();
-            this.button29 = new System.Windows.Forms.Button();
-            this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.button32 = new System.Windows.Forms.Button();
-            this.button33 = new System.Windows.Forms.Button();
-            this.button34 = new System.Windows.Forms.Button();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button26 = new System.Windows.Forms.Button();
-            this.button25 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button23 = new System.Windows.Forms.Button();
-            this.button24 = new System.Windows.Forms.Button();
-            this.tabControl1.SuspendLayout();
-            this.tabPage1.SuspendLayout();
-            this.groupBox6.SuspendLayout();
-            this.groupBox5.SuspendLayout();
-            this.groupBox4.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            this.tabPage2.SuspendLayout();
-            this.groupBox8.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            this.groupBox7.SuspendLayout();
-            this.groupBox2.SuspendLayout();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.ferramentasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.consultarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
+            this.cadastrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator12 = new System.Windows.Forms.ToolStripSeparator();
+            this.emprestimoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.devoluçaoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
+            this.removerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.funcionáriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
+            this.cadastrarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator11 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator9 = new System.Windows.Forms.ToolStripSeparator();
+            this.consultarDébitoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.setoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultarToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator10 = new System.Windows.Forms.ToolStripSeparator();
+            this.cadastrarToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.modificarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator13 = new System.Windows.Forms.ToolStripSeparator();
+            this.removerToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.emprestimosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.devoluçõesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mapaDeDanosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.indisponibilidadeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.relatóriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // tabControl1
-            // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabControl1.Location = new System.Drawing.Point(2, 0);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.Padding = new System.Drawing.Point(50, 6);
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1088, 125);
-            this.tabControl1.TabIndex = 0;
-            // 
-            // tabPage1
-            // 
-            this.tabPage1.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.tabPage1.Controls.Add(this.groupBox6);
-            this.tabPage1.Controls.Add(this.groupBox5);
-            this.tabPage1.Controls.Add(this.groupBox4);
-            this.tabPage1.Controls.Add(this.groupBox1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 35);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1080, 86);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Geral";
-            // 
-            // groupBox6
-            // 
-            this.groupBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox6.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox6.Controls.Add(this.button4);
-            this.groupBox6.Controls.Add(this.button20);
-            this.groupBox6.Controls.Add(this.button21);
-            this.groupBox6.Controls.Add(this.button22);
-            this.groupBox6.Location = new System.Drawing.Point(790, 4);
-            this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(235, 78);
-            this.groupBox6.TabIndex = 4;
-            this.groupBox6.TabStop = false;
-            this.groupBox6.Text = "Sistema";
-            // 
-            // button4
-            // 
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(177, 21);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(50, 50);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Sobre";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button20
-            // 
-            this.button20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button20.Location = new System.Drawing.Point(121, 21);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(50, 50);
-            this.button20.TabIndex = 2;
-            this.button20.Text = "Usuário";
-            this.button20.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button20.UseVisualStyleBackColor = true;
-            // 
-            // button21
-            // 
-            this.button21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button21.Image = ((System.Drawing.Image)(resources.GetObject("button21.Image")));
-            this.button21.Location = new System.Drawing.Point(9, 21);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(50, 50);
-            this.button21.TabIndex = 0;
-            this.button21.Text = "Configurar";
-            this.button21.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button21.UseVisualStyleBackColor = true;
-            // 
-            // button22
-            // 
-            this.button22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button22.Image = ((System.Drawing.Image)(resources.GetObject("button22.Image")));
-            this.button22.Location = new System.Drawing.Point(65, 21);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(50, 50);
-            this.button22.TabIndex = 1;
-            this.button22.Text = "FeedBack";
-            this.button22.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button22.UseVisualStyleBackColor = true;
-            // 
-            // groupBox5
-            // 
-            this.groupBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox5.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox5.Controls.Add(this.button17);
-            this.groupBox5.Controls.Add(this.button18);
-            this.groupBox5.Controls.Add(this.button19);
-            this.groupBox5.Location = new System.Drawing.Point(562, 4);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(179, 78);
-            this.groupBox5.TabIndex = 3;
-            this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "Setores";
-            // 
-            // button17
-            // 
-            this.button17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button17.Location = new System.Drawing.Point(121, 21);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(50, 50);
-            this.button17.TabIndex = 2;
-            this.button17.Text = "Debito";
-            this.button17.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button17.UseVisualStyleBackColor = true;
-            // 
-            // button18
-            // 
-            this.button18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button18.Image = ((System.Drawing.Image)(resources.GetObject("button18.Image")));
-            this.button18.Location = new System.Drawing.Point(9, 21);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(50, 50);
-            this.button18.TabIndex = 0;
-            this.button18.Text = "Consultar";
-            this.button18.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button18.UseVisualStyleBackColor = true;
-            // 
-            // button19
-            // 
-            this.button19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button19.Image = ((System.Drawing.Image)(resources.GetObject("button19.Image")));
-            this.button19.Location = new System.Drawing.Point(65, 21);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(50, 50);
-            this.button19.TabIndex = 1;
-            this.button19.Text = "Cadastrar";
-            this.button19.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button19.UseVisualStyleBackColor = true;
-            // 
-            // groupBox4
-            // 
-            this.groupBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox4.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox4.Controls.Add(this.button13);
-            this.groupBox4.Controls.Add(this.button15);
-            this.groupBox4.Controls.Add(this.button16);
-            this.groupBox4.Location = new System.Drawing.Point(333, 4);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(179, 78);
-            this.groupBox4.TabIndex = 2;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Funcionários";
-            // 
-            // button13
-            // 
-            this.button13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button13.Location = new System.Drawing.Point(121, 21);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(50, 50);
-            this.button13.TabIndex = 2;
-            this.button13.Text = "Debito";
-            this.button13.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button13.UseVisualStyleBackColor = true;
-            // 
-            // button15
-            // 
-            this.button15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button15.Image = ((System.Drawing.Image)(resources.GetObject("button15.Image")));
-            this.button15.Location = new System.Drawing.Point(9, 21);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(50, 50);
-            this.button15.TabIndex = 0;
-            this.button15.Text = "Consultar";
-            this.button15.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button15.UseVisualStyleBackColor = true;
-            // 
-            // button16
-            // 
-            this.button16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button16.Image = ((System.Drawing.Image)(resources.GetObject("button16.Image")));
-            this.button16.Location = new System.Drawing.Point(65, 21);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(50, 50);
-            this.button16.TabIndex = 1;
-            this.button16.Text = "Cadastrar";
-            this.button16.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button16.UseVisualStyleBackColor = true;
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox1.Controls.Add(this.button7);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Location = new System.Drawing.Point(44, 4);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(236, 78);
-            this.groupBox1.TabIndex = 1;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Ferramentas";
-            // 
-            // button7
-            // 
-            this.button7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(177, 21);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(50, 50);
-            this.button7.TabIndex = 2;
-            this.button7.Text = "Devolução";
-            this.button7.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button7.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(9, 21);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(50, 50);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Consultar";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(65, 21);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(50, 50);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Cadastrar";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button3.Location = new System.Drawing.Point(121, 22);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(50, 50);
-            this.button3.TabIndex = 1;
-            this.button3.Text = "Emprestimo";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.tabPage2.Controls.Add(this.groupBox8);
-            this.tabPage2.Controls.Add(this.groupBox3);
-            this.tabPage2.Controls.Add(this.groupBox7);
-            this.tabPage2.Controls.Add(this.groupBox2);
-            this.tabPage2.Location = new System.Drawing.Point(4, 35);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1080, 86);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Ferramentas";
-            // 
-            // groupBox8
-            // 
-            this.groupBox8.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox8.Controls.Add(this.button27);
-            this.groupBox8.Controls.Add(this.button28);
-            this.groupBox8.Controls.Add(this.button35);
-            this.groupBox8.Location = new System.Drawing.Point(629, 4);
-            this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(180, 78);
-            this.groupBox8.TabIndex = 5;
-            this.groupBox8.TabStop = false;
-            this.groupBox8.Text = "Emprestimos";
-            // 
-            // button27
-            // 
-            this.button27.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button27.Location = new System.Drawing.Point(65, 21);
-            this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(50, 50);
-            this.button27.TabIndex = 6;
-            this.button27.Text = "Devolução";
-            this.button27.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button27.UseVisualStyleBackColor = true;
-            // 
-            // button28
-            // 
-            this.button28.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button28.Location = new System.Drawing.Point(9, 21);
-            this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(50, 50);
-            this.button28.TabIndex = 5;
-            this.button28.Text = "Emprestimo";
-            this.button28.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button28.UseVisualStyleBackColor = true;
-            // 
-            // button35
-            // 
-            this.button35.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button35.Location = new System.Drawing.Point(121, 21);
-            this.button35.Name = "button35";
-            this.button35.Size = new System.Drawing.Size(50, 50);
-            this.button35.TabIndex = 2;
-            this.button35.Text = "Solicitação";
-            this.button35.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button35.UseVisualStyleBackColor = true;
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox3.Controls.Add(this.button30);
-            this.groupBox3.Controls.Add(this.button31);
-            this.groupBox3.Controls.Add(this.button29);
-            this.groupBox3.Location = new System.Drawing.Point(845, 5);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(180, 78);
-            this.groupBox3.TabIndex = 3;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Relatorios";
-            // 
-            // button30
-            // 
-            this.button30.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button30.Location = new System.Drawing.Point(65, 21);
-            this.button30.Name = "button30";
-            this.button30.Size = new System.Drawing.Size(50, 50);
-            this.button30.TabIndex = 6;
-            this.button30.Text = "Devoluçoes";
-            this.button30.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button30.UseVisualStyleBackColor = true;
-            // 
-            // button31
-            // 
-            this.button31.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button31.Location = new System.Drawing.Point(9, 21);
-            this.button31.Name = "button31";
-            this.button31.Size = new System.Drawing.Size(50, 50);
-            this.button31.TabIndex = 5;
-            this.button31.Text = "Empestimos";
-            this.button31.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button31.UseVisualStyleBackColor = true;
-            // 
-            // button29
-            // 
-            this.button29.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button29.Location = new System.Drawing.Point(121, 21);
-            this.button29.Name = "button29";
-            this.button29.Size = new System.Drawing.Size(50, 50);
-            this.button29.TabIndex = 2;
-            this.button29.Text = "Dano";
-            this.button29.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button29.UseVisualStyleBackColor = true;
-            // 
-            // groupBox7
-            // 
-            this.groupBox7.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox7.Controls.Add(this.button32);
-            this.groupBox7.Controls.Add(this.button33);
-            this.groupBox7.Controls.Add(this.button34);
-            this.groupBox7.Location = new System.Drawing.Point(396, 4);
-            this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(179, 78);
-            this.groupBox7.TabIndex = 4;
-            this.groupBox7.TabStop = false;
-            this.groupBox7.Text = "Dados Gerenciais";
-            // 
-            // button32
-            // 
-            this.button32.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button32.Location = new System.Drawing.Point(121, 21);
-            this.button32.Name = "button32";
-            this.button32.Size = new System.Drawing.Size(50, 50);
-            this.button32.TabIndex = 2;
-            this.button32.Text = "Indisponiveis";
-            this.button32.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button32.UseVisualStyleBackColor = true;
-            // 
-            // button33
-            // 
-            this.button33.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button33.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button33.Image = ((System.Drawing.Image)(resources.GetObject("button33.Image")));
-            this.button33.Location = new System.Drawing.Point(9, 21);
-            this.button33.Name = "button33";
-            this.button33.Size = new System.Drawing.Size(50, 50);
-            this.button33.TabIndex = 0;
-            this.button33.Text = "Atrasos";
-            this.button33.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button33.UseVisualStyleBackColor = true;
-            // 
-            // button34
-            // 
-            this.button34.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button34.Image = ((System.Drawing.Image)(resources.GetObject("button34.Image")));
-            this.button34.Location = new System.Drawing.Point(65, 21);
-            this.button34.Name = "button34";
-            this.button34.Size = new System.Drawing.Size(50, 50);
-            this.button34.TabIndex = 1;
-            this.button34.Text = "Compras";
-            this.button34.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button34.UseVisualStyleBackColor = true;
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox2.Controls.Add(this.button26);
-            this.groupBox2.Controls.Add(this.button25);
-            this.groupBox2.Controls.Add(this.button10);
-            this.groupBox2.Controls.Add(this.button23);
-            this.groupBox2.Controls.Add(this.button24);
-            this.groupBox2.Location = new System.Drawing.Point(44, 4);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(293, 78);
-            this.groupBox2.TabIndex = 2;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Dados Cadastrais";
-            // 
-            // button26
-            // 
-            this.button26.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button26.Location = new System.Drawing.Point(233, 21);
-            this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(50, 50);
-            this.button26.TabIndex = 4;
-            this.button26.Text = "Remover";
-            this.button26.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button26.UseVisualStyleBackColor = true;
-            // 
-            // button25
-            // 
-            this.button25.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button25.Location = new System.Drawing.Point(177, 21);
-            this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(50, 50);
-            this.button25.TabIndex = 3;
-            this.button25.Text = "Inserir";
-            this.button25.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button25.UseVisualStyleBackColor = true;
-            // 
-            // button10
-            // 
-            this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.Location = new System.Drawing.Point(121, 21);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(50, 50);
-            this.button10.TabIndex = 2;
-            this.button10.Text = "Excluir";
-            this.button10.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button10.UseVisualStyleBackColor = true;
-            // 
-            // button23
-            // 
-            this.button23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button23.Image = ((System.Drawing.Image)(resources.GetObject("button23.Image")));
-            this.button23.Location = new System.Drawing.Point(9, 21);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(50, 50);
-            this.button23.TabIndex = 0;
-            this.button23.Text = "Consultar";
-            this.button23.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button23.UseVisualStyleBackColor = true;
-            // 
-            // button24
-            // 
-            this.button24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button24.Image = ((System.Drawing.Image)(resources.GetObject("button24.Image")));
-            this.button24.Location = new System.Drawing.Point(65, 21);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(50, 50);
-            this.button24.TabIndex = 1;
-            this.button24.Text = "Cadastrar";
-            this.button24.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button24.UseVisualStyleBackColor = true;
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ferramentasToolStripMenuItem,
+            this.funcionáriosToolStripMenuItem,
+            this.setoresToolStripMenuItem,
+            this.relatóriosToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(1264, 24);
+            this.menuStrip1.TabIndex = 18;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // ferramentasToolStripMenuItem
+            // 
+            this.ferramentasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem1,
+            this.toolStripSeparator5,
+            this.toolStripMenuItem2,
+            this.toolStripSeparator1,
+            this.consultarToolStripMenuItem,
+            this.toolStripSeparator6,
+            this.cadastrarToolStripMenuItem,
+            this.toolStripSeparator2,
+            this.toolStripMenuItem5,
+            this.toolStripSeparator12,
+            this.emprestimoToolStripMenuItem,
+            this.toolStripSeparator3,
+            this.devoluçaoToolStripMenuItem,
+            this.toolStripSeparator4,
+            this.removerToolStripMenuItem});
+            this.ferramentasToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.ferramentasToolStripMenuItem.Name = "ferramentasToolStripMenuItem";
+            this.ferramentasToolStripMenuItem.Size = new System.Drawing.Size(84, 20);
+            this.ferramentasToolStripMenuItem.Text = "Ferramentas";
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuItem1.Image")));
+            this.toolStripMenuItem1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.E)));
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(194, 38);
+            this.toolStripMenuItem1.Text = "Emprestimo";
+            // 
+            // toolStripSeparator5
+            // 
+            this.toolStripSeparator5.Name = "toolStripSeparator5";
+            this.toolStripSeparator5.Size = new System.Drawing.Size(191, 6);
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuItem2.Image")));
+            this.toolStripMenuItem2.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D)));
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(194, 38);
+            this.toolStripMenuItem2.Text = "Devolução";
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(191, 6);
+            // 
+            // consultarToolStripMenuItem
+            // 
+            this.consultarToolStripMenuItem.Image = global::XtremeFerramentas.Properties.Resources.search_database;
+            this.consultarToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.consultarToolStripMenuItem.Name = "consultarToolStripMenuItem";
+            this.consultarToolStripMenuItem.Size = new System.Drawing.Size(194, 38);
+            this.consultarToolStripMenuItem.Text = "Consultar";
+            // 
+            // toolStripSeparator6
+            // 
+            this.toolStripSeparator6.Name = "toolStripSeparator6";
+            this.toolStripSeparator6.Size = new System.Drawing.Size(191, 6);
+            // 
+            // cadastrarToolStripMenuItem
+            // 
+            this.cadastrarToolStripMenuItem.Image = global::XtremeFerramentas.Properties.Resources.add_to_database;
+            this.cadastrarToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.cadastrarToolStripMenuItem.Name = "cadastrarToolStripMenuItem";
+            this.cadastrarToolStripMenuItem.Size = new System.Drawing.Size(194, 38);
+            this.cadastrarToolStripMenuItem.Text = "Cadastrar";
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(191, 6);
+            // 
+            // toolStripMenuItem5
+            // 
+            this.toolStripMenuItem5.Image = global::XtremeFerramentas.Properties.Resources.Database_Upload;
+            this.toolStripMenuItem5.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripMenuItem5.Name = "toolStripMenuItem5";
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(194, 38);
+            this.toolStripMenuItem5.Text = "Modificar";
+            // 
+            // toolStripSeparator12
+            // 
+            this.toolStripSeparator12.Name = "toolStripSeparator12";
+            this.toolStripSeparator12.Size = new System.Drawing.Size(191, 6);
+            // 
+            // emprestimoToolStripMenuItem
+            // 
+            this.emprestimoToolStripMenuItem.Image = global::XtremeFerramentas.Properties.Resources.remove_from_database;
+            this.emprestimoToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.emprestimoToolStripMenuItem.Name = "emprestimoToolStripMenuItem";
+            this.emprestimoToolStripMenuItem.Size = new System.Drawing.Size(194, 38);
+            this.emprestimoToolStripMenuItem.Text = "Excluir";
+            // 
+            // toolStripSeparator3
+            // 
+            this.toolStripSeparator3.Name = "toolStripSeparator3";
+            this.toolStripSeparator3.Size = new System.Drawing.Size(191, 6);
+            // 
+            // devoluçaoToolStripMenuItem
+            // 
+            this.devoluçaoToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("devoluçaoToolStripMenuItem.Image")));
+            this.devoluçaoToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.devoluçaoToolStripMenuItem.Name = "devoluçaoToolStripMenuItem";
+            this.devoluçaoToolStripMenuItem.Size = new System.Drawing.Size(194, 38);
+            this.devoluçaoToolStripMenuItem.Text = "Inserir";
+            // 
+            // toolStripSeparator4
+            // 
+            this.toolStripSeparator4.Name = "toolStripSeparator4";
+            this.toolStripSeparator4.Size = new System.Drawing.Size(191, 6);
+            // 
+            // removerToolStripMenuItem
+            // 
+            this.removerToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("removerToolStripMenuItem.Image")));
+            this.removerToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.removerToolStripMenuItem.Name = "removerToolStripMenuItem";
+            this.removerToolStripMenuItem.Size = new System.Drawing.Size(194, 38);
+            this.removerToolStripMenuItem.Text = "Remover";
+            // 
+            // funcionáriosToolStripMenuItem
+            // 
+            this.funcionáriosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.consultarToolStripMenuItem1,
+            this.toolStripSeparator7,
+            this.cadastrarToolStripMenuItem1,
+            this.toolStripSeparator8,
+            this.toolStripMenuItem4,
+            this.toolStripSeparator11,
+            this.toolStripMenuItem3,
+            this.toolStripSeparator9,
+            this.consultarDébitoToolStripMenuItem});
+            this.funcionáriosToolStripMenuItem.Name = "funcionáriosToolStripMenuItem";
+            this.funcionáriosToolStripMenuItem.Size = new System.Drawing.Size(87, 20);
+            this.funcionáriosToolStripMenuItem.Text = "Funcionários";
+            // 
+            // consultarToolStripMenuItem1
+            // 
+            this.consultarToolStripMenuItem1.Image = global::XtremeFerramentas.Properties.Resources.Search_Male_User;
+            this.consultarToolStripMenuItem1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.consultarToolStripMenuItem1.Name = "consultarToolStripMenuItem1";
+            this.consultarToolStripMenuItem1.Size = new System.Drawing.Size(179, 38);
+            this.consultarToolStripMenuItem1.Text = "Consultar";
+            // 
+            // toolStripSeparator7
+            // 
+            this.toolStripSeparator7.Name = "toolStripSeparator7";
+            this.toolStripSeparator7.Size = new System.Drawing.Size(176, 6);
+            // 
+            // cadastrarToolStripMenuItem1
+            // 
+            this.cadastrarToolStripMenuItem1.Image = global::XtremeFerramentas.Properties.Resources.Add_Male_User;
+            this.cadastrarToolStripMenuItem1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.cadastrarToolStripMenuItem1.Name = "cadastrarToolStripMenuItem1";
+            this.cadastrarToolStripMenuItem1.Size = new System.Drawing.Size(179, 38);
+            this.cadastrarToolStripMenuItem1.Text = "Cadastrar";
+            // 
+            // toolStripSeparator8
+            // 
+            this.toolStripSeparator8.Name = "toolStripSeparator8";
+            this.toolStripSeparator8.Size = new System.Drawing.Size(176, 6);
+            // 
+            // toolStripMenuItem4
+            // 
+            this.toolStripMenuItem4.Image = global::XtremeFerramentas.Properties.Resources.Edit_Male_User;
+            this.toolStripMenuItem4.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(179, 38);
+            this.toolStripMenuItem4.Text = "Modificar";
+            // 
+            // toolStripSeparator11
+            // 
+            this.toolStripSeparator11.Name = "toolStripSeparator11";
+            this.toolStripSeparator11.Size = new System.Drawing.Size(176, 6);
+            // 
+            // toolStripMenuItem3
+            // 
+            this.toolStripMenuItem3.Image = global::XtremeFerramentas.Properties.Resources.Remove_Male_User;
+            this.toolStripMenuItem3.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(179, 38);
+            this.toolStripMenuItem3.Text = "Excluir";
+            // 
+            // toolStripSeparator9
+            // 
+            this.toolStripSeparator9.Name = "toolStripSeparator9";
+            this.toolStripSeparator9.Size = new System.Drawing.Size(176, 6);
+            // 
+            // consultarDébitoToolStripMenuItem
+            // 
+            this.consultarDébitoToolStripMenuItem.Image = global::XtremeFerramentas.Properties.Resources.Male_User_Help;
+            this.consultarDébitoToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.consultarDébitoToolStripMenuItem.Name = "consultarDébitoToolStripMenuItem";
+            this.consultarDébitoToolStripMenuItem.Size = new System.Drawing.Size(179, 38);
+            this.consultarDébitoToolStripMenuItem.Text = "Consultar Débito";
+            // 
+            // setoresToolStripMenuItem
+            // 
+            this.setoresToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.consultarToolStripMenuItem2,
+            this.toolStripSeparator10,
+            this.cadastrarToolStripMenuItem2,
+            this.modificarToolStripMenuItem,
+            this.toolStripSeparator13,
+            this.removerToolStripMenuItem1});
+            this.setoresToolStripMenuItem.Name = "setoresToolStripMenuItem";
+            this.setoresToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
+            this.setoresToolStripMenuItem.Text = "Setores";
+            // 
+            // consultarToolStripMenuItem2
+            // 
+            this.consultarToolStripMenuItem2.Image = ((System.Drawing.Image)(resources.GetObject("consultarToolStripMenuItem2.Image")));
+            this.consultarToolStripMenuItem2.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.consultarToolStripMenuItem2.Name = "consultarToolStripMenuItem2";
+            this.consultarToolStripMenuItem2.Size = new System.Drawing.Size(168, 38);
+            this.consultarToolStripMenuItem2.Text = "Consultar";
+            // 
+            // toolStripSeparator10
+            // 
+            this.toolStripSeparator10.Name = "toolStripSeparator10";
+            this.toolStripSeparator10.Size = new System.Drawing.Size(165, 6);
+            // 
+            // cadastrarToolStripMenuItem2
+            // 
+            this.cadastrarToolStripMenuItem2.Image = global::XtremeFerramentas.Properties.Resources.add_to_database;
+            this.cadastrarToolStripMenuItem2.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.cadastrarToolStripMenuItem2.Name = "cadastrarToolStripMenuItem2";
+            this.cadastrarToolStripMenuItem2.Size = new System.Drawing.Size(168, 38);
+            this.cadastrarToolStripMenuItem2.Text = "Cadastrar";
+            // 
+            // modificarToolStripMenuItem
+            // 
+            this.modificarToolStripMenuItem.Image = global::XtremeFerramentas.Properties.Resources.Database_Upload;
+            this.modificarToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.modificarToolStripMenuItem.Name = "modificarToolStripMenuItem";
+            this.modificarToolStripMenuItem.Size = new System.Drawing.Size(168, 38);
+            this.modificarToolStripMenuItem.Text = "Modificar";
+            // 
+            // toolStripSeparator13
+            // 
+            this.toolStripSeparator13.Name = "toolStripSeparator13";
+            this.toolStripSeparator13.Size = new System.Drawing.Size(165, 6);
+            // 
+            // removerToolStripMenuItem1
+            // 
+            this.removerToolStripMenuItem1.Image = global::XtremeFerramentas.Properties.Resources.remove_from_database;
+            this.removerToolStripMenuItem1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.removerToolStripMenuItem1.Name = "removerToolStripMenuItem1";
+            this.removerToolStripMenuItem1.Size = new System.Drawing.Size(168, 38);
+            this.removerToolStripMenuItem1.Text = "Remover";
+            // 
+            // emprestimosToolStripMenuItem
+            // 
+            this.emprestimosToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("emprestimosToolStripMenuItem.Image")));
+            this.emprestimosToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.emprestimosToolStripMenuItem.Name = "emprestimosToolStripMenuItem";
+            this.emprestimosToolStripMenuItem.Size = new System.Drawing.Size(181, 38);
+            this.emprestimosToolStripMenuItem.Text = "Emprestimos";
+            // 
+            // devoluçõesToolStripMenuItem
+            // 
+            this.devoluçõesToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("devoluçõesToolStripMenuItem.Image")));
+            this.devoluçõesToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.devoluçõesToolStripMenuItem.Name = "devoluçõesToolStripMenuItem";
+            this.devoluçõesToolStripMenuItem.Size = new System.Drawing.Size(181, 38);
+            this.devoluçõesToolStripMenuItem.Text = "Devoluções";
+            // 
+            // mapaDeDanosToolStripMenuItem
+            // 
+            this.mapaDeDanosToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("mapaDeDanosToolStripMenuItem.Image")));
+            this.mapaDeDanosToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.mapaDeDanosToolStripMenuItem.Name = "mapaDeDanosToolStripMenuItem";
+            this.mapaDeDanosToolStripMenuItem.Size = new System.Drawing.Size(181, 38);
+            this.mapaDeDanosToolStripMenuItem.Text = "Mapa de Danos";
+            // 
+            // indisponibilidadeToolStripMenuItem
+            // 
+            this.indisponibilidadeToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("indisponibilidadeToolStripMenuItem.Image")));
+            this.indisponibilidadeToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.indisponibilidadeToolStripMenuItem.Name = "indisponibilidadeToolStripMenuItem";
+            this.indisponibilidadeToolStripMenuItem.Size = new System.Drawing.Size(181, 38);
+            this.indisponibilidadeToolStripMenuItem.Text = "Indisponibilidade";
+            // 
+            // relatóriosToolStripMenuItem
+            // 
+            this.relatóriosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.emprestimosToolStripMenuItem,
+            this.devoluçõesToolStripMenuItem,
+            this.mapaDeDanosToolStripMenuItem,
+            this.indisponibilidadeToolStripMenuItem});
+            this.relatóriosToolStripMenuItem.Name = "relatóriosToolStripMenuItem";
+            this.relatóriosToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
+            this.relatóriosToolStripMenuItem.Text = "Relatórios";
             // 
             // Form1
             // 
@@ -587,69 +388,61 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(1264, 681);
-            this.Controls.Add(this.tabControl1);
+            this.Controls.Add(this.menuStrip1);
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Form1";
-            this.tabControl1.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
-            this.groupBox6.ResumeLayout(false);
-            this.groupBox5.ResumeLayout(false);
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
-            this.tabPage2.ResumeLayout(false);
-            this.groupBox8.ResumeLayout(false);
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox7.ResumeLayout(false);
-            this.groupBox2.ResumeLayout(false);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.GroupBox groupBox6;
-        private System.Windows.Forms.Button button21;
-        private System.Windows.Forms.Button button22;
-        private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.GroupBox groupBox8;
-        private System.Windows.Forms.Button button27;
-        private System.Windows.Forms.Button button28;
-        private System.Windows.Forms.Button button35;
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.Button button30;
-        private System.Windows.Forms.Button button31;
-        private System.Windows.Forms.Button button29;
-        private System.Windows.Forms.GroupBox groupBox7;
-        private System.Windows.Forms.Button button32;
-        private System.Windows.Forms.Button button33;
-        private System.Windows.Forms.Button button34;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Button button26;
-        private System.Windows.Forms.Button button25;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button23;
-        private System.Windows.Forms.Button button24;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem ferramentasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem consultarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator6;
+        private System.Windows.Forms.ToolStripMenuItem cadastrarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
+        private System.Windows.Forms.ToolStripMenuItem emprestimoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
+        private System.Windows.Forms.ToolStripMenuItem devoluçaoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
+        private System.Windows.Forms.ToolStripMenuItem removerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem funcionáriosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem consultarToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator7;
+        private System.Windows.Forms.ToolStripMenuItem cadastrarToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator8;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator9;
+        private System.Windows.Forms.ToolStripMenuItem consultarDébitoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem setoresToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem consultarToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator10;
+        private System.Windows.Forms.ToolStripMenuItem cadastrarToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem4;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator11;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem5;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator12;
+        private System.Windows.Forms.ToolStripMenuItem modificarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator13;
+        private System.Windows.Forms.ToolStripMenuItem removerToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem relatóriosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem emprestimosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem devoluçõesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mapaDeDanosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem indisponibilidadeToolStripMenuItem;
     }
 }
 
