@@ -1,6 +1,6 @@
 ﻿namespace XtremeFerramentas
 {
-    partial class Form1
+    partial class ContainerPrincipal
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ContainerPrincipal));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.ferramentasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -63,29 +63,27 @@
             this.modificarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator13 = new System.Windows.Forms.ToolStripSeparator();
             this.removerToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.relatóriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.emprestimosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.devoluçõesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mapaDeDanosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.indisponibilidadeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.relatóriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
+            resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ferramentasToolStripMenuItem,
             this.funcionáriosToolStripMenuItem,
             this.setoresToolStripMenuItem,
             this.relatóriosToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1264, 24);
-            this.menuStrip1.TabIndex = 18;
-            this.menuStrip1.Text = "menuStrip1";
             // 
             // ferramentasToolStripMenuItem
             // 
+            resources.ApplyResources(this.ferramentasToolStripMenuItem, "ferramentasToolStripMenuItem");
             this.ferramentasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem1,
             this.toolStripSeparator5,
@@ -102,114 +100,90 @@
             this.devoluçaoToolStripMenuItem,
             this.toolStripSeparator4,
             this.removerToolStripMenuItem});
-            this.ferramentasToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.ferramentasToolStripMenuItem.Name = "ferramentasToolStripMenuItem";
-            this.ferramentasToolStripMenuItem.Size = new System.Drawing.Size(84, 20);
-            this.ferramentasToolStripMenuItem.Text = "Ferramentas";
             // 
             // toolStripMenuItem1
             // 
-            this.toolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuItem1.Image")));
-            this.toolStripMenuItem1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            resources.ApplyResources(this.toolStripMenuItem1, "toolStripMenuItem1");
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.E)));
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(194, 38);
-            this.toolStripMenuItem1.Text = "Emprestimo";
             // 
             // toolStripSeparator5
             // 
+            resources.ApplyResources(this.toolStripSeparator5, "toolStripSeparator5");
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(191, 6);
             // 
             // toolStripMenuItem2
             // 
-            this.toolStripMenuItem2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuItem2.Image")));
-            this.toolStripMenuItem2.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            resources.ApplyResources(this.toolStripMenuItem2, "toolStripMenuItem2");
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D)));
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(194, 38);
-            this.toolStripMenuItem2.Text = "Devolução";
             // 
             // toolStripSeparator1
             // 
+            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(191, 6);
             // 
             // consultarToolStripMenuItem
             // 
+            resources.ApplyResources(this.consultarToolStripMenuItem, "consultarToolStripMenuItem");
             this.consultarToolStripMenuItem.Image = global::XtremeFerramentas.Properties.Resources.search_database;
-            this.consultarToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.consultarToolStripMenuItem.Name = "consultarToolStripMenuItem";
-            this.consultarToolStripMenuItem.Size = new System.Drawing.Size(194, 38);
-            this.consultarToolStripMenuItem.Text = "Consultar";
             // 
             // toolStripSeparator6
             // 
+            resources.ApplyResources(this.toolStripSeparator6, "toolStripSeparator6");
             this.toolStripSeparator6.Name = "toolStripSeparator6";
-            this.toolStripSeparator6.Size = new System.Drawing.Size(191, 6);
             // 
             // cadastrarToolStripMenuItem
             // 
+            resources.ApplyResources(this.cadastrarToolStripMenuItem, "cadastrarToolStripMenuItem");
             this.cadastrarToolStripMenuItem.Image = global::XtremeFerramentas.Properties.Resources.add_to_database;
-            this.cadastrarToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.cadastrarToolStripMenuItem.Name = "cadastrarToolStripMenuItem";
-            this.cadastrarToolStripMenuItem.Size = new System.Drawing.Size(194, 38);
-            this.cadastrarToolStripMenuItem.Text = "Cadastrar";
             // 
             // toolStripSeparator2
             // 
+            resources.ApplyResources(this.toolStripSeparator2, "toolStripSeparator2");
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(191, 6);
             // 
             // toolStripMenuItem5
             // 
+            resources.ApplyResources(this.toolStripMenuItem5, "toolStripMenuItem5");
             this.toolStripMenuItem5.Image = global::XtremeFerramentas.Properties.Resources.Database_Upload;
-            this.toolStripMenuItem5.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripMenuItem5.Name = "toolStripMenuItem5";
-            this.toolStripMenuItem5.Size = new System.Drawing.Size(194, 38);
-            this.toolStripMenuItem5.Text = "Modificar";
             // 
             // toolStripSeparator12
             // 
+            resources.ApplyResources(this.toolStripSeparator12, "toolStripSeparator12");
             this.toolStripSeparator12.Name = "toolStripSeparator12";
-            this.toolStripSeparator12.Size = new System.Drawing.Size(191, 6);
             // 
             // emprestimoToolStripMenuItem
             // 
+            resources.ApplyResources(this.emprestimoToolStripMenuItem, "emprestimoToolStripMenuItem");
             this.emprestimoToolStripMenuItem.Image = global::XtremeFerramentas.Properties.Resources.remove_from_database;
-            this.emprestimoToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.emprestimoToolStripMenuItem.Name = "emprestimoToolStripMenuItem";
-            this.emprestimoToolStripMenuItem.Size = new System.Drawing.Size(194, 38);
-            this.emprestimoToolStripMenuItem.Text = "Excluir";
             // 
             // toolStripSeparator3
             // 
+            resources.ApplyResources(this.toolStripSeparator3, "toolStripSeparator3");
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(191, 6);
             // 
             // devoluçaoToolStripMenuItem
             // 
-            this.devoluçaoToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("devoluçaoToolStripMenuItem.Image")));
-            this.devoluçaoToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            resources.ApplyResources(this.devoluçaoToolStripMenuItem, "devoluçaoToolStripMenuItem");
             this.devoluçaoToolStripMenuItem.Name = "devoluçaoToolStripMenuItem";
-            this.devoluçaoToolStripMenuItem.Size = new System.Drawing.Size(194, 38);
-            this.devoluçaoToolStripMenuItem.Text = "Inserir";
             // 
             // toolStripSeparator4
             // 
+            resources.ApplyResources(this.toolStripSeparator4, "toolStripSeparator4");
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(191, 6);
             // 
             // removerToolStripMenuItem
             // 
-            this.removerToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("removerToolStripMenuItem.Image")));
-            this.removerToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            resources.ApplyResources(this.removerToolStripMenuItem, "removerToolStripMenuItem");
             this.removerToolStripMenuItem.Name = "removerToolStripMenuItem";
-            this.removerToolStripMenuItem.Size = new System.Drawing.Size(194, 38);
-            this.removerToolStripMenuItem.Text = "Remover";
             // 
             // funcionáriosToolStripMenuItem
             // 
+            resources.ApplyResources(this.funcionáriosToolStripMenuItem, "funcionáriosToolStripMenuItem");
             this.funcionáriosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.consultarToolStripMenuItem1,
             this.toolStripSeparator7,
@@ -221,71 +195,60 @@
             this.toolStripSeparator9,
             this.consultarDébitoToolStripMenuItem});
             this.funcionáriosToolStripMenuItem.Name = "funcionáriosToolStripMenuItem";
-            this.funcionáriosToolStripMenuItem.Size = new System.Drawing.Size(87, 20);
-            this.funcionáriosToolStripMenuItem.Text = "Funcionários";
             // 
             // consultarToolStripMenuItem1
             // 
+            resources.ApplyResources(this.consultarToolStripMenuItem1, "consultarToolStripMenuItem1");
             this.consultarToolStripMenuItem1.Image = global::XtremeFerramentas.Properties.Resources.Search_Male_User;
-            this.consultarToolStripMenuItem1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.consultarToolStripMenuItem1.Name = "consultarToolStripMenuItem1";
-            this.consultarToolStripMenuItem1.Size = new System.Drawing.Size(179, 38);
-            this.consultarToolStripMenuItem1.Text = "Consultar";
             // 
             // toolStripSeparator7
             // 
+            resources.ApplyResources(this.toolStripSeparator7, "toolStripSeparator7");
             this.toolStripSeparator7.Name = "toolStripSeparator7";
-            this.toolStripSeparator7.Size = new System.Drawing.Size(176, 6);
             // 
             // cadastrarToolStripMenuItem1
             // 
+            resources.ApplyResources(this.cadastrarToolStripMenuItem1, "cadastrarToolStripMenuItem1");
             this.cadastrarToolStripMenuItem1.Image = global::XtremeFerramentas.Properties.Resources.Add_Male_User;
-            this.cadastrarToolStripMenuItem1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.cadastrarToolStripMenuItem1.Name = "cadastrarToolStripMenuItem1";
-            this.cadastrarToolStripMenuItem1.Size = new System.Drawing.Size(179, 38);
-            this.cadastrarToolStripMenuItem1.Text = "Cadastrar";
             // 
             // toolStripSeparator8
             // 
+            resources.ApplyResources(this.toolStripSeparator8, "toolStripSeparator8");
             this.toolStripSeparator8.Name = "toolStripSeparator8";
-            this.toolStripSeparator8.Size = new System.Drawing.Size(176, 6);
             // 
             // toolStripMenuItem4
             // 
+            resources.ApplyResources(this.toolStripMenuItem4, "toolStripMenuItem4");
             this.toolStripMenuItem4.Image = global::XtremeFerramentas.Properties.Resources.Edit_Male_User;
-            this.toolStripMenuItem4.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(179, 38);
-            this.toolStripMenuItem4.Text = "Modificar";
             // 
             // toolStripSeparator11
             // 
+            resources.ApplyResources(this.toolStripSeparator11, "toolStripSeparator11");
             this.toolStripSeparator11.Name = "toolStripSeparator11";
-            this.toolStripSeparator11.Size = new System.Drawing.Size(176, 6);
             // 
             // toolStripMenuItem3
             // 
+            resources.ApplyResources(this.toolStripMenuItem3, "toolStripMenuItem3");
             this.toolStripMenuItem3.Image = global::XtremeFerramentas.Properties.Resources.Remove_Male_User;
-            this.toolStripMenuItem3.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(179, 38);
-            this.toolStripMenuItem3.Text = "Excluir";
             // 
             // toolStripSeparator9
             // 
+            resources.ApplyResources(this.toolStripSeparator9, "toolStripSeparator9");
             this.toolStripSeparator9.Name = "toolStripSeparator9";
-            this.toolStripSeparator9.Size = new System.Drawing.Size(176, 6);
             // 
             // consultarDébitoToolStripMenuItem
             // 
+            resources.ApplyResources(this.consultarDébitoToolStripMenuItem, "consultarDébitoToolStripMenuItem");
             this.consultarDébitoToolStripMenuItem.Image = global::XtremeFerramentas.Properties.Resources.Male_User_Help;
-            this.consultarDébitoToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.consultarDébitoToolStripMenuItem.Name = "consultarDébitoToolStripMenuItem";
-            this.consultarDébitoToolStripMenuItem.Size = new System.Drawing.Size(179, 38);
-            this.consultarDébitoToolStripMenuItem.Text = "Consultar Débito";
             // 
             // setoresToolStripMenuItem
             // 
+            resources.ApplyResources(this.setoresToolStripMenuItem, "setoresToolStripMenuItem");
             this.setoresToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.consultarToolStripMenuItem2,
             this.toolStripSeparator10,
@@ -294,107 +257,80 @@
             this.toolStripSeparator13,
             this.removerToolStripMenuItem1});
             this.setoresToolStripMenuItem.Name = "setoresToolStripMenuItem";
-            this.setoresToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
-            this.setoresToolStripMenuItem.Text = "Setores";
             // 
             // consultarToolStripMenuItem2
             // 
-            this.consultarToolStripMenuItem2.Image = ((System.Drawing.Image)(resources.GetObject("consultarToolStripMenuItem2.Image")));
-            this.consultarToolStripMenuItem2.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            resources.ApplyResources(this.consultarToolStripMenuItem2, "consultarToolStripMenuItem2");
             this.consultarToolStripMenuItem2.Name = "consultarToolStripMenuItem2";
-            this.consultarToolStripMenuItem2.Size = new System.Drawing.Size(168, 38);
-            this.consultarToolStripMenuItem2.Text = "Consultar";
             // 
             // toolStripSeparator10
             // 
+            resources.ApplyResources(this.toolStripSeparator10, "toolStripSeparator10");
             this.toolStripSeparator10.Name = "toolStripSeparator10";
-            this.toolStripSeparator10.Size = new System.Drawing.Size(165, 6);
             // 
             // cadastrarToolStripMenuItem2
             // 
+            resources.ApplyResources(this.cadastrarToolStripMenuItem2, "cadastrarToolStripMenuItem2");
             this.cadastrarToolStripMenuItem2.Image = global::XtremeFerramentas.Properties.Resources.add_to_database;
-            this.cadastrarToolStripMenuItem2.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.cadastrarToolStripMenuItem2.Name = "cadastrarToolStripMenuItem2";
-            this.cadastrarToolStripMenuItem2.Size = new System.Drawing.Size(168, 38);
-            this.cadastrarToolStripMenuItem2.Text = "Cadastrar";
             // 
             // modificarToolStripMenuItem
             // 
+            resources.ApplyResources(this.modificarToolStripMenuItem, "modificarToolStripMenuItem");
             this.modificarToolStripMenuItem.Image = global::XtremeFerramentas.Properties.Resources.Database_Upload;
-            this.modificarToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.modificarToolStripMenuItem.Name = "modificarToolStripMenuItem";
-            this.modificarToolStripMenuItem.Size = new System.Drawing.Size(168, 38);
-            this.modificarToolStripMenuItem.Text = "Modificar";
             // 
             // toolStripSeparator13
             // 
+            resources.ApplyResources(this.toolStripSeparator13, "toolStripSeparator13");
             this.toolStripSeparator13.Name = "toolStripSeparator13";
-            this.toolStripSeparator13.Size = new System.Drawing.Size(165, 6);
             // 
             // removerToolStripMenuItem1
             // 
+            resources.ApplyResources(this.removerToolStripMenuItem1, "removerToolStripMenuItem1");
             this.removerToolStripMenuItem1.Image = global::XtremeFerramentas.Properties.Resources.remove_from_database;
-            this.removerToolStripMenuItem1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.removerToolStripMenuItem1.Name = "removerToolStripMenuItem1";
-            this.removerToolStripMenuItem1.Size = new System.Drawing.Size(168, 38);
-            this.removerToolStripMenuItem1.Text = "Remover";
-            // 
-            // emprestimosToolStripMenuItem
-            // 
-            this.emprestimosToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("emprestimosToolStripMenuItem.Image")));
-            this.emprestimosToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.emprestimosToolStripMenuItem.Name = "emprestimosToolStripMenuItem";
-            this.emprestimosToolStripMenuItem.Size = new System.Drawing.Size(181, 38);
-            this.emprestimosToolStripMenuItem.Text = "Emprestimos";
-            // 
-            // devoluçõesToolStripMenuItem
-            // 
-            this.devoluçõesToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("devoluçõesToolStripMenuItem.Image")));
-            this.devoluçõesToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.devoluçõesToolStripMenuItem.Name = "devoluçõesToolStripMenuItem";
-            this.devoluçõesToolStripMenuItem.Size = new System.Drawing.Size(181, 38);
-            this.devoluçõesToolStripMenuItem.Text = "Devoluções";
-            // 
-            // mapaDeDanosToolStripMenuItem
-            // 
-            this.mapaDeDanosToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("mapaDeDanosToolStripMenuItem.Image")));
-            this.mapaDeDanosToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.mapaDeDanosToolStripMenuItem.Name = "mapaDeDanosToolStripMenuItem";
-            this.mapaDeDanosToolStripMenuItem.Size = new System.Drawing.Size(181, 38);
-            this.mapaDeDanosToolStripMenuItem.Text = "Mapa de Danos";
-            // 
-            // indisponibilidadeToolStripMenuItem
-            // 
-            this.indisponibilidadeToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("indisponibilidadeToolStripMenuItem.Image")));
-            this.indisponibilidadeToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.indisponibilidadeToolStripMenuItem.Name = "indisponibilidadeToolStripMenuItem";
-            this.indisponibilidadeToolStripMenuItem.Size = new System.Drawing.Size(181, 38);
-            this.indisponibilidadeToolStripMenuItem.Text = "Indisponibilidade";
             // 
             // relatóriosToolStripMenuItem
             // 
+            resources.ApplyResources(this.relatóriosToolStripMenuItem, "relatóriosToolStripMenuItem");
             this.relatóriosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.emprestimosToolStripMenuItem,
             this.devoluçõesToolStripMenuItem,
             this.mapaDeDanosToolStripMenuItem,
             this.indisponibilidadeToolStripMenuItem});
             this.relatóriosToolStripMenuItem.Name = "relatóriosToolStripMenuItem";
-            this.relatóriosToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
-            this.relatóriosToolStripMenuItem.Text = "Relatórios";
             // 
-            // Form1
+            // emprestimosToolStripMenuItem
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this.emprestimosToolStripMenuItem, "emprestimosToolStripMenuItem");
+            this.emprestimosToolStripMenuItem.Name = "emprestimosToolStripMenuItem";
+            // 
+            // devoluçõesToolStripMenuItem
+            // 
+            resources.ApplyResources(this.devoluçõesToolStripMenuItem, "devoluçõesToolStripMenuItem");
+            this.devoluçõesToolStripMenuItem.Name = "devoluçõesToolStripMenuItem";
+            // 
+            // mapaDeDanosToolStripMenuItem
+            // 
+            resources.ApplyResources(this.mapaDeDanosToolStripMenuItem, "mapaDeDanosToolStripMenuItem");
+            this.mapaDeDanosToolStripMenuItem.Name = "mapaDeDanosToolStripMenuItem";
+            // 
+            // indisponibilidadeToolStripMenuItem
+            // 
+            resources.ApplyResources(this.indisponibilidadeToolStripMenuItem, "indisponibilidadeToolStripMenuItem");
+            this.indisponibilidadeToolStripMenuItem.Name = "indisponibilidadeToolStripMenuItem";
+            // 
+            // ContainerPrincipal
+            // 
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.BackColor = System.Drawing.Color.LightSkyBlue;
             this.Controls.Add(this.menuStrip1);
             this.DoubleBuffered = true;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.IsMdiContainer = true;
+            this.Name = "ContainerPrincipal";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

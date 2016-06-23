@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace XtremeFerramentas
 {
-    public partial class Form1 : Form
+    public partial class ContainerPrincipal : Form
     {
-        public Form1()
+        public ContainerPrincipal()
         {
             InitializeComponent();
         }
