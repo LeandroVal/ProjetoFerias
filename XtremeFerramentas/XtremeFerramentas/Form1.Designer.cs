@@ -73,17 +73,16 @@
             // 
             // menuStrip1
             // 
-            resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ferramentasToolStripMenuItem,
             this.funcionáriosToolStripMenuItem,
             this.setoresToolStripMenuItem,
             this.relatóriosToolStripMenuItem});
+            resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Name = "menuStrip1";
             // 
             // ferramentasToolStripMenuItem
             // 
-            resources.ApplyResources(this.ferramentasToolStripMenuItem, "ferramentasToolStripMenuItem");
             this.ferramentasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem1,
             this.toolStripSeparator5,
@@ -100,6 +99,7 @@
             this.devoluçaoToolStripMenuItem,
             this.toolStripSeparator4,
             this.removerToolStripMenuItem});
+            resources.ApplyResources(this.ferramentasToolStripMenuItem, "ferramentasToolStripMenuItem");
             this.ferramentasToolStripMenuItem.Name = "ferramentasToolStripMenuItem";
             // 
             // toolStripMenuItem1
@@ -109,8 +109,8 @@
             // 
             // toolStripSeparator5
             // 
-            resources.ApplyResources(this.toolStripSeparator5, "toolStripSeparator5");
             this.toolStripSeparator5.Name = "toolStripSeparator5";
+            resources.ApplyResources(this.toolStripSeparator5, "toolStripSeparator5");
             // 
             // toolStripMenuItem2
             // 
@@ -119,52 +119,52 @@
             // 
             // toolStripSeparator1
             // 
-            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
             this.toolStripSeparator1.Name = "toolStripSeparator1";
+            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
             // 
             // consultarToolStripMenuItem
             // 
-            resources.ApplyResources(this.consultarToolStripMenuItem, "consultarToolStripMenuItem");
             this.consultarToolStripMenuItem.Image = global::XtremeFerramentas.Properties.Resources.search_database;
+            resources.ApplyResources(this.consultarToolStripMenuItem, "consultarToolStripMenuItem");
             this.consultarToolStripMenuItem.Name = "consultarToolStripMenuItem";
             // 
             // toolStripSeparator6
             // 
-            resources.ApplyResources(this.toolStripSeparator6, "toolStripSeparator6");
             this.toolStripSeparator6.Name = "toolStripSeparator6";
+            resources.ApplyResources(this.toolStripSeparator6, "toolStripSeparator6");
             // 
             // cadastrarToolStripMenuItem
             // 
-            resources.ApplyResources(this.cadastrarToolStripMenuItem, "cadastrarToolStripMenuItem");
             this.cadastrarToolStripMenuItem.Image = global::XtremeFerramentas.Properties.Resources.add_to_database;
+            resources.ApplyResources(this.cadastrarToolStripMenuItem, "cadastrarToolStripMenuItem");
             this.cadastrarToolStripMenuItem.Name = "cadastrarToolStripMenuItem";
             // 
             // toolStripSeparator2
             // 
-            resources.ApplyResources(this.toolStripSeparator2, "toolStripSeparator2");
             this.toolStripSeparator2.Name = "toolStripSeparator2";
+            resources.ApplyResources(this.toolStripSeparator2, "toolStripSeparator2");
             // 
             // toolStripMenuItem5
             // 
-            resources.ApplyResources(this.toolStripMenuItem5, "toolStripMenuItem5");
             this.toolStripMenuItem5.Image = global::XtremeFerramentas.Properties.Resources.Database_Upload;
+            resources.ApplyResources(this.toolStripMenuItem5, "toolStripMenuItem5");
             this.toolStripMenuItem5.Name = "toolStripMenuItem5";
             // 
             // toolStripSeparator12
             // 
-            resources.ApplyResources(this.toolStripSeparator12, "toolStripSeparator12");
             this.toolStripSeparator12.Name = "toolStripSeparator12";
+            resources.ApplyResources(this.toolStripSeparator12, "toolStripSeparator12");
             // 
             // emprestimoToolStripMenuItem
             // 
-            resources.ApplyResources(this.emprestimoToolStripMenuItem, "emprestimoToolStripMenuItem");
             this.emprestimoToolStripMenuItem.Image = global::XtremeFerramentas.Properties.Resources.remove_from_database;
+            resources.ApplyResources(this.emprestimoToolStripMenuItem, "emprestimoToolStripMenuItem");
             this.emprestimoToolStripMenuItem.Name = "emprestimoToolStripMenuItem";
             // 
             // toolStripSeparator3
             // 
-            resources.ApplyResources(this.toolStripSeparator3, "toolStripSeparator3");
             this.toolStripSeparator3.Name = "toolStripSeparator3";
+            resources.ApplyResources(this.toolStripSeparator3, "toolStripSeparator3");
             // 
             // devoluçaoToolStripMenuItem
             // 
@@ -173,8 +173,8 @@
             // 
             // toolStripSeparator4
             // 
-            resources.ApplyResources(this.toolStripSeparator4, "toolStripSeparator4");
             this.toolStripSeparator4.Name = "toolStripSeparator4";
+            resources.ApplyResources(this.toolStripSeparator4, "toolStripSeparator4");
             // 
             // removerToolStripMenuItem
             // 
@@ -183,7 +183,6 @@
             // 
             // funcionáriosToolStripMenuItem
             // 
-            resources.ApplyResources(this.funcionáriosToolStripMenuItem, "funcionáriosToolStripMenuItem");
             this.funcionáriosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.consultarToolStripMenuItem1,
             this.toolStripSeparator7,
@@ -195,60 +194,60 @@
             this.toolStripSeparator9,
             this.consultarDébitoToolStripMenuItem});
             this.funcionáriosToolStripMenuItem.Name = "funcionáriosToolStripMenuItem";
+            resources.ApplyResources(this.funcionáriosToolStripMenuItem, "funcionáriosToolStripMenuItem");
             // 
             // consultarToolStripMenuItem1
             // 
-            resources.ApplyResources(this.consultarToolStripMenuItem1, "consultarToolStripMenuItem1");
             this.consultarToolStripMenuItem1.Image = global::XtremeFerramentas.Properties.Resources.Search_Male_User;
+            resources.ApplyResources(this.consultarToolStripMenuItem1, "consultarToolStripMenuItem1");
             this.consultarToolStripMenuItem1.Name = "consultarToolStripMenuItem1";
             // 
             // toolStripSeparator7
             // 
-            resources.ApplyResources(this.toolStripSeparator7, "toolStripSeparator7");
             this.toolStripSeparator7.Name = "toolStripSeparator7";
+            resources.ApplyResources(this.toolStripSeparator7, "toolStripSeparator7");
             // 
             // cadastrarToolStripMenuItem1
             // 
-            resources.ApplyResources(this.cadastrarToolStripMenuItem1, "cadastrarToolStripMenuItem1");
             this.cadastrarToolStripMenuItem1.Image = global::XtremeFerramentas.Properties.Resources.Add_Male_User;
+            resources.ApplyResources(this.cadastrarToolStripMenuItem1, "cadastrarToolStripMenuItem1");
             this.cadastrarToolStripMenuItem1.Name = "cadastrarToolStripMenuItem1";
             // 
             // toolStripSeparator8
             // 
-            resources.ApplyResources(this.toolStripSeparator8, "toolStripSeparator8");
             this.toolStripSeparator8.Name = "toolStripSeparator8";
+            resources.ApplyResources(this.toolStripSeparator8, "toolStripSeparator8");
             // 
             // toolStripMenuItem4
             // 
-            resources.ApplyResources(this.toolStripMenuItem4, "toolStripMenuItem4");
             this.toolStripMenuItem4.Image = global::XtremeFerramentas.Properties.Resources.Edit_Male_User;
+            resources.ApplyResources(this.toolStripMenuItem4, "toolStripMenuItem4");
             this.toolStripMenuItem4.Name = "toolStripMenuItem4";
             // 
             // toolStripSeparator11
             // 
-            resources.ApplyResources(this.toolStripSeparator11, "toolStripSeparator11");
             this.toolStripSeparator11.Name = "toolStripSeparator11";
+            resources.ApplyResources(this.toolStripSeparator11, "toolStripSeparator11");
             // 
             // toolStripMenuItem3
             // 
-            resources.ApplyResources(this.toolStripMenuItem3, "toolStripMenuItem3");
             this.toolStripMenuItem3.Image = global::XtremeFerramentas.Properties.Resources.Remove_Male_User;
+            resources.ApplyResources(this.toolStripMenuItem3, "toolStripMenuItem3");
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
             // 
             // toolStripSeparator9
             // 
-            resources.ApplyResources(this.toolStripSeparator9, "toolStripSeparator9");
             this.toolStripSeparator9.Name = "toolStripSeparator9";
+            resources.ApplyResources(this.toolStripSeparator9, "toolStripSeparator9");
             // 
             // consultarDébitoToolStripMenuItem
             // 
-            resources.ApplyResources(this.consultarDébitoToolStripMenuItem, "consultarDébitoToolStripMenuItem");
             this.consultarDébitoToolStripMenuItem.Image = global::XtremeFerramentas.Properties.Resources.Male_User_Help;
+            resources.ApplyResources(this.consultarDébitoToolStripMenuItem, "consultarDébitoToolStripMenuItem");
             this.consultarDébitoToolStripMenuItem.Name = "consultarDébitoToolStripMenuItem";
             // 
             // setoresToolStripMenuItem
             // 
-            resources.ApplyResources(this.setoresToolStripMenuItem, "setoresToolStripMenuItem");
             this.setoresToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.consultarToolStripMenuItem2,
             this.toolStripSeparator10,
@@ -257,6 +256,7 @@
             this.toolStripSeparator13,
             this.removerToolStripMenuItem1});
             this.setoresToolStripMenuItem.Name = "setoresToolStripMenuItem";
+            resources.ApplyResources(this.setoresToolStripMenuItem, "setoresToolStripMenuItem");
             // 
             // consultarToolStripMenuItem2
             // 
@@ -265,41 +265,41 @@
             // 
             // toolStripSeparator10
             // 
-            resources.ApplyResources(this.toolStripSeparator10, "toolStripSeparator10");
             this.toolStripSeparator10.Name = "toolStripSeparator10";
+            resources.ApplyResources(this.toolStripSeparator10, "toolStripSeparator10");
             // 
             // cadastrarToolStripMenuItem2
             // 
-            resources.ApplyResources(this.cadastrarToolStripMenuItem2, "cadastrarToolStripMenuItem2");
             this.cadastrarToolStripMenuItem2.Image = global::XtremeFerramentas.Properties.Resources.add_to_database;
+            resources.ApplyResources(this.cadastrarToolStripMenuItem2, "cadastrarToolStripMenuItem2");
             this.cadastrarToolStripMenuItem2.Name = "cadastrarToolStripMenuItem2";
             // 
             // modificarToolStripMenuItem
             // 
-            resources.ApplyResources(this.modificarToolStripMenuItem, "modificarToolStripMenuItem");
             this.modificarToolStripMenuItem.Image = global::XtremeFerramentas.Properties.Resources.Database_Upload;
+            resources.ApplyResources(this.modificarToolStripMenuItem, "modificarToolStripMenuItem");
             this.modificarToolStripMenuItem.Name = "modificarToolStripMenuItem";
             // 
             // toolStripSeparator13
             // 
-            resources.ApplyResources(this.toolStripSeparator13, "toolStripSeparator13");
             this.toolStripSeparator13.Name = "toolStripSeparator13";
+            resources.ApplyResources(this.toolStripSeparator13, "toolStripSeparator13");
             // 
             // removerToolStripMenuItem1
             // 
-            resources.ApplyResources(this.removerToolStripMenuItem1, "removerToolStripMenuItem1");
             this.removerToolStripMenuItem1.Image = global::XtremeFerramentas.Properties.Resources.remove_from_database;
+            resources.ApplyResources(this.removerToolStripMenuItem1, "removerToolStripMenuItem1");
             this.removerToolStripMenuItem1.Name = "removerToolStripMenuItem1";
             // 
             // relatóriosToolStripMenuItem
             // 
-            resources.ApplyResources(this.relatóriosToolStripMenuItem, "relatóriosToolStripMenuItem");
             this.relatóriosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.emprestimosToolStripMenuItem,
             this.devoluçõesToolStripMenuItem,
             this.mapaDeDanosToolStripMenuItem,
             this.indisponibilidadeToolStripMenuItem});
             this.relatóriosToolStripMenuItem.Name = "relatóriosToolStripMenuItem";
+            resources.ApplyResources(this.relatóriosToolStripMenuItem, "relatóriosToolStripMenuItem");
             // 
             // emprestimosToolStripMenuItem
             // 
