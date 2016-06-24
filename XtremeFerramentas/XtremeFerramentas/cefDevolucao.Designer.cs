@@ -126,7 +126,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(120, 39);
             this.button2.TabIndex = 10;
-            this.button2.Text = "Devolver ferramentas do carinho";
+            this.button2.Text = "Confirmar devolução";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // button3
@@ -135,7 +135,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(98, 39);
             this.button3.TabIndex = 11;
-            this.button3.Text = "Cancelar devolução";
+            this.button3.Text = "Cancelar";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // cefDevolucao

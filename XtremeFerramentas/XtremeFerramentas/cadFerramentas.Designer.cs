@@ -135,49 +135,49 @@
             // 
             this.textBox1.Location = new System.Drawing.Point(121, 32);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(209, 20);
+            this.textBox1.Size = new System.Drawing.Size(342, 20);
             this.textBox1.TabIndex = 9;
             // 
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(121, 58);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(209, 20);
+            this.textBox2.Size = new System.Drawing.Size(342, 20);
             this.textBox2.TabIndex = 10;
             // 
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(121, 83);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(208, 20);
+            this.textBox3.Size = new System.Drawing.Size(341, 20);
             this.textBox3.TabIndex = 11;
             // 
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(121, 109);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(208, 20);
+            this.textBox4.Size = new System.Drawing.Size(341, 20);
             this.textBox4.TabIndex = 12;
             // 
             // textBox7
             // 
             this.textBox7.Location = new System.Drawing.Point(121, 186);
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(208, 20);
+            this.textBox7.Size = new System.Drawing.Size(341, 20);
             this.textBox7.TabIndex = 15;
             // 
             // textBox9
             // 
             this.textBox9.Location = new System.Drawing.Point(121, 236);
             this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(208, 20);
+            this.textBox9.Size = new System.Drawing.Size(341, 20);
             this.textBox9.TabIndex = 17;
             // 
             // maskedTextBox1
             // 
             this.maskedTextBox1.Location = new System.Drawing.Point(121, 135);
             this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(208, 20);
+            this.maskedTextBox1.Size = new System.Drawing.Size(341, 20);
             this.maskedTextBox1.TabIndex = 18;
             // 
             // maskedTextBox2
@@ -185,7 +185,7 @@
             this.maskedTextBox2.Location = new System.Drawing.Point(121, 161);
             this.maskedTextBox2.Mask = "00/00/0000";
             this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(208, 20);
+            this.maskedTextBox2.Size = new System.Drawing.Size(341, 20);
             this.maskedTextBox2.TabIndex = 19;
             this.maskedTextBox2.ValidatingType = typeof(System.DateTime);
             // 
@@ -194,15 +194,15 @@
             this.maskedTextBox3.Location = new System.Drawing.Point(121, 210);
             this.maskedTextBox3.Mask = "00/00/0000";
             this.maskedTextBox3.Name = "maskedTextBox3";
-            this.maskedTextBox3.Size = new System.Drawing.Size(208, 20);
+            this.maskedTextBox3.Size = new System.Drawing.Size(341, 20);
             this.maskedTextBox3.TabIndex = 20;
             this.maskedTextBox3.ValidatingType = typeof(System.DateTime);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(254, 281);
+            this.button1.Location = new System.Drawing.Point(311, 278);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(151, 29);
             this.button1.TabIndex = 21;
             this.button1.Text = "Cadastrar";
             this.button1.UseVisualStyleBackColor = true;
@@ -211,7 +211,7 @@
             // 
             this.button2.Location = new System.Drawing.Point(14, 281);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(151, 29);
             this.button2.TabIndex = 22;
             this.button2.Text = "Cancelar";
             this.button2.UseVisualStyleBackColor = true;
@@ -220,7 +220,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(349, 316);
+            this.ClientSize = new System.Drawing.Size(484, 316);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.maskedTextBox3);
