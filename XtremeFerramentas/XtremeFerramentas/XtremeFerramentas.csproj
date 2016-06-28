@@ -77,6 +77,18 @@
     <Compile Include="funcMod.Designer.cs">
       <DependentUpon>funcMod.cs</DependentUpon>
     </Compile>
+    <Compile Include="Layouts\ferExc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Layouts\ferExc.Designer.cs">
+      <DependentUpon>ferExc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\ferMod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Layouts\ferMod.Designer.cs">
+      <DependentUpon>ferMod.cs</DependentUpon>
+    </Compile>
     <Compile Include="Layouts\conFerramenta.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -141,6 +153,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="funcMod.resx">
       <DependentUpon>funcMod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layouts\ferExc.resx">
+      <DependentUpon>ferExc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layouts\ferMod.resx">
+      <DependentUpon>ferMod.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Layouts\conFerramenta.resx">
       <DependentUpon>conFerramenta.cs</DependentUpon>
@@ -236,6 +254,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\fundo4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Buscar.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
