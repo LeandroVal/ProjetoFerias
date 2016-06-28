@@ -47,10 +47,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="conFuncionarios.cs">
+    <Compile Include="Layouts\Funcionários\conFuncionarios.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="conFuncionarios.Designer.cs">
+    <Compile Include="Layouts\Funcionários\conFuncionarios.Designer.cs">
       <DependentUpon>conFuncionarios.cs</DependentUpon>
     </Compile>
     <Compile Include="Layouts\Ferramentas\ferrInserir.cs">
@@ -127,7 +127,7 @@
     <Compile Include="Layouts\Relatórios\relatorioEmprestimoDevolucao.Designer.cs">
       <DependentUpon>relatorioEmprestimoDevolucao.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="conFuncionarios.resx">
+    <EmbeddedResource Include="Layouts\Funcionários\conFuncionarios.resx">
       <DependentUpon>conFuncionarios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Layouts\Ferramentas\ferrInserir.resx">
