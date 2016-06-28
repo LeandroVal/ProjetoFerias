@@ -65,6 +65,25 @@
     <Compile Include="Layouts\Ferramentas\ferrRemover.Designer.cs">
       <DependentUpon>ferrRemover.cs</DependentUpon>
     </Compile>
+    <Compile Include="funcConsultarDebito.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="funcConsultarDebito.Designer.cs">
+      <DependentUpon>funcConsultarDebito.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FuncExcluir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FuncExcluir.Designer.cs">
+      <DependentUpon>FuncExcluir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="funcMod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="funcMod.Designer.cs">
+      <DependentUpon>funcMod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\ferExc.cs">
     <Compile Include="Layouts\Ferramentas\ferExc.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -137,6 +156,16 @@
       <DependentUpon>ferrRemover.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Layouts\Ferramentas\ferExc.resx">
+    <EmbeddedResource Include="funcConsultarDebito.resx">
+      <DependentUpon>funcConsultarDebito.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FuncExcluir.resx">
+      <DependentUpon>FuncExcluir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="funcMod.resx">
+      <DependentUpon>funcMod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layouts\ferExc.resx">
       <DependentUpon>ferExc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Layouts\Ferramentas\ferMod.resx">
