@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace XtremeFerramentas
@@ -16,7 +13,9 @@ namespace XtremeFerramentas
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ContainerPrincipal());
+            ContainerP containerPrincipal = new ContainerP();
+            Application.Run(containerPrincipal);
+                      
         }
     }
 }

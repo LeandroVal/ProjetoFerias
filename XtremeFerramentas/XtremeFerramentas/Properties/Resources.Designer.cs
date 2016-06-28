@@ -83,6 +83,26 @@ namespace XtremeFerramentas.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Cancelar {
+            get {
+                object obj = ResourceManager.GetObject("Cancelar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Concluir {
+            get {
+                object obj = ResourceManager.GetObject("Concluir", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Database_Upload {
             get {
                 object obj = ResourceManager.GetObject("Database-Upload", resourceCulture);
@@ -106,6 +126,16 @@ namespace XtremeFerramentas.Properties {
         internal static System.Drawing.Bitmap Fundo {
             get {
                 object obj = ResourceManager.GetObject("Fundo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fundo4 {
+            get {
+                object obj = ResourceManager.GetObject("fundo4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
