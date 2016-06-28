@@ -30,7 +30,23 @@ namespace XtremeFerramentas
 
         private void ms_princ_fer_emp_Click(object sender, EventArgs e)
         {
+            cefEmprestimo CefEmprestimo = new cefEmprestimo();
+            CefEmprestimo.MdiParent = this;
+            CefEmprestimo.Show();
+        }
 
+        private void ms_princ_fer_cad_Click(object sender, EventArgs e)
+        {
+            cadFerramentas CadFerramentas = new cadFerramentas();
+            CadFerramentas.MdiParent = this;
+            CadFerramentas.Show();
+        }
+
+        private void ms_princ_fer_dev_Click(object sender, EventArgs e)
+        {
+            cefDevolucao CefDevolucao = new cefDevolucao();
+            CefDevolucao.MdiParent = this;
+            CefDevolucao.Show();
         }
     }
 }

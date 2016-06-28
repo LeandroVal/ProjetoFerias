@@ -210,6 +210,7 @@
             this.ms_princ_fer_dev.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D)));
             this.ms_princ_fer_dev.Size = new System.Drawing.Size(194, 38);
             this.ms_princ_fer_dev.Text = "Devolução";
+            this.ms_princ_fer_dev.Click += new System.EventHandler(this.ms_princ_fer_dev_Click);
             // 
             // toolStripSeparator1
             // 
@@ -236,6 +237,7 @@
             this.ms_princ_fer_cad.Name = "ms_princ_fer_cad";
             this.ms_princ_fer_cad.Size = new System.Drawing.Size(194, 38);
             this.ms_princ_fer_cad.Text = "Cadastrar";
+            this.ms_princ_fer_cad.Click += new System.EventHandler(this.ms_princ_fer_cad_Click);
             // 
             // toolStripSeparator2
             // 
@@ -495,6 +497,7 @@
             this.ClientSize = new System.Drawing.Size(1264, 681);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.ms_Principal);
+            this.DoubleBuffered = true;
             this.IsMdiContainer = true;
             this.Name = "ContainerP";
             this.Text = "ContainerP";
