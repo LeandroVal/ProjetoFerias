@@ -47,111 +47,120 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ferrInserir.cs">
+    <Compile Include="conFuncionarios.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ferrInserir.Designer.cs">
+    <Compile Include="conFuncionarios.Designer.cs">
+      <DependentUpon>conFuncionarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\Ferramentas\ferrInserir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Layouts\Ferramentas\ferrInserir.Designer.cs">
       <DependentUpon>ferrInserir.cs</DependentUpon>
     </Compile>
-    <Compile Include="ferrRemover.cs">
+    <Compile Include="Layouts\Ferramentas\ferrRemover.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ferrRemover.Designer.cs">
+    <Compile Include="Layouts\Ferramentas\ferrRemover.Designer.cs">
       <DependentUpon>ferrRemover.cs</DependentUpon>
     </Compile>
-    <Compile Include="Layouts\ferExc.cs">
+    <Compile Include="Layouts\Ferramentas\ferExc.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Layouts\ferExc.Designer.cs">
+    <Compile Include="Layouts\Ferramentas\ferExc.Designer.cs">
       <DependentUpon>ferExc.cs</DependentUpon>
     </Compile>
-    <Compile Include="Layouts\ferMod.cs">
+    <Compile Include="Layouts\Ferramentas\ferMod.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Layouts\ferMod.Designer.cs">
+    <Compile Include="Layouts\Ferramentas\ferMod.Designer.cs">
       <DependentUpon>ferMod.cs</DependentUpon>
     </Compile>
-    <Compile Include="Layouts\conFerramenta.cs">
+    <Compile Include="Layouts\Ferramentas\conFerramenta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Layouts\conFerramenta.Designer.cs">
+    <Compile Include="Layouts\Ferramentas\conFerramenta.Designer.cs">
       <DependentUpon>conFerramenta.cs</DependentUpon>
     </Compile>
-    <Compile Include="ContainerP.cs">
+    <Compile Include="Layouts\ContainerP.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ContainerP.Designer.cs">
+    <Compile Include="Layouts\ContainerP.Designer.cs">
       <DependentUpon>ContainerP.cs</DependentUpon>
     </Compile>
-    <Compile Include="Layouts\cadFerramentas.cs">
+    <Compile Include="Layouts\Ferramentas\cadFerramentas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Layouts\cadFerramentas.Designer.cs">
+    <Compile Include="Layouts\Ferramentas\cadFerramentas.Designer.cs">
       <DependentUpon>cadFerramentas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Layouts\cadfunc.cs">
+    <Compile Include="Layouts\Funcionários\cadfunc.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Layouts\cadfunc.Designer.cs">
+    <Compile Include="Layouts\Funcionários\cadfunc.Designer.cs">
       <DependentUpon>cadfunc.cs</DependentUpon>
     </Compile>
-    <Compile Include="Layouts\cadSetor.cs">
+    <Compile Include="Layouts\Setores\cadSetor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Layouts\cadSetor.Designer.cs">
+    <Compile Include="Layouts\Setores\cadSetor.Designer.cs">
       <DependentUpon>cadSetor.cs</DependentUpon>
     </Compile>
-    <Compile Include="Layouts\cefDevolucao.cs">
+    <Compile Include="Layouts\Ferramentas\cefDevolucao.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Layouts\cefDevolucao.Designer.cs">
+    <Compile Include="Layouts\Ferramentas\cefDevolucao.Designer.cs">
       <DependentUpon>cefDevolucao.cs</DependentUpon>
     </Compile>
-    <Compile Include="Layouts\cefEmprestimo.cs">
+    <Compile Include="Layouts\Ferramentas\cefEmprestimo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Layouts\cefEmprestimo.Designer.cs">
+    <Compile Include="Layouts\Ferramentas\cefEmprestimo.Designer.cs">
       <DependentUpon>cefEmprestimo.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Layouts\relatorioEmprestimoDevolucao.cs">
+    <Compile Include="Layouts\Relatórios\relatorioEmprestimoDevolucao.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Layouts\relatorioEmprestimoDevolucao.Designer.cs">
+    <Compile Include="Layouts\Relatórios\relatorioEmprestimoDevolucao.Designer.cs">
       <DependentUpon>relatorioEmprestimoDevolucao.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="ferrInserir.resx">
+    <EmbeddedResource Include="conFuncionarios.resx">
+      <DependentUpon>conFuncionarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layouts\Ferramentas\ferrInserir.resx">
       <DependentUpon>ferrInserir.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ferrRemover.resx">
+    <EmbeddedResource Include="Layouts\Ferramentas\ferrRemover.resx">
       <DependentUpon>ferrRemover.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Layouts\ferExc.resx">
+    <EmbeddedResource Include="Layouts\Ferramentas\ferExc.resx">
       <DependentUpon>ferExc.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Layouts\ferMod.resx">
+    <EmbeddedResource Include="Layouts\Ferramentas\ferMod.resx">
       <DependentUpon>ferMod.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Layouts\conFerramenta.resx">
+    <EmbeddedResource Include="Layouts\Ferramentas\conFerramenta.resx">
       <DependentUpon>conFerramenta.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ContainerP.resx">
+    <EmbeddedResource Include="Layouts\ContainerP.resx">
       <DependentUpon>ContainerP.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Layouts\cadFerramentas.resx">
+    <EmbeddedResource Include="Layouts\Ferramentas\cadFerramentas.resx">
       <DependentUpon>cadFerramentas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Layouts\cadfunc.resx">
+    <EmbeddedResource Include="Layouts\Funcionários\cadfunc.resx">
       <DependentUpon>cadfunc.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Layouts\cadSetor.resx">
+    <EmbeddedResource Include="Layouts\Setores\cadSetor.resx">
       <DependentUpon>cadSetor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Layouts\cefDevolucao.resx">
+    <EmbeddedResource Include="Layouts\Ferramentas\cefDevolucao.resx">
       <DependentUpon>cefDevolucao.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Layouts\cefEmprestimo.resx">
+    <EmbeddedResource Include="Layouts\Ferramentas\cefEmprestimo.resx">
       <DependentUpon>cefEmprestimo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -159,7 +168,7 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Layouts\relatorioEmprestimoDevolucao.resx">
+    <EmbeddedResource Include="Layouts\Relatórios\relatorioEmprestimoDevolucao.resx">
       <DependentUpon>relatorioEmprestimoDevolucao.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
@@ -230,6 +239,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Buscar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Voltar.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
