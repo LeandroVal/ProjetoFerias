@@ -47,6 +47,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ferrInserir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ferrInserir.Designer.cs">
+      <DependentUpon>ferrInserir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ferrRemover.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ferrRemover.Designer.cs">
+      <DependentUpon>ferrRemover.cs</DependentUpon>
+    </Compile>
     <Compile Include="Layouts\ferExc.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,6 +121,12 @@
     <Compile Include="Layouts\relatorioEmprestimoDevolucao.Designer.cs">
       <DependentUpon>relatorioEmprestimoDevolucao.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ferrInserir.resx">
+      <DependentUpon>ferrInserir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ferrRemover.resx">
+      <DependentUpon>ferrRemover.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Layouts\ferExc.resx">
       <DependentUpon>ferExc.cs</DependentUpon>
     </EmbeddedResource>
